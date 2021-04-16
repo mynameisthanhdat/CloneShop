@@ -1,0 +1,14 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    height:  100%;
+}
+.bang1{
+    background: url(https://i.pinimg.com/originals/5e/21/da/5e21dacde310d6d13ad78d834345a9bf.jpg);
+    height:  40%;
+    padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    padding: 10px;
+}
+
+.khung{
+    /* display: flex; */
+    padding: 20px;
+}
+
+nav ul {
+    padding: 40px;
+    display: flex;
+}
+
+nav ul li{
+    padding-left: 150px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.tuan{
+    display: flex;
+    justify-content: space-between;
+}
+.tuan1{
+    padding-left: 30px;
+}
+.tuan1 button{
+    margin-left: 50px;
+}
+.tuan2{
+    padding-right: 20px;
+}
+.tuan button{
+    padding: 15px;
+    background-color: rgb(207, 136, 29);
+    color: white;
+}
+.tuan3{
+    padding-left: 800px;
+}
+.subtotal{
+    display: flex;
+}
+.subtotal p{
+    margin-left: 130px;
+}
+.total{
+    display: flex;
+}
+.total p{
+    margin-left: 130px;
+}
+.end button{
+    margin-top: 25px;
+    padding: 10px;
+    background-color: rgb(207, 136, 29);
+    color: white    ;
+}

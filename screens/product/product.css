@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-flui{
+    background-color: whitesmoke;
+}
+.menu{
+    display: flex;
+    margin-left: 120px ;
+}
+.product{
+    display: flex;
+}
+.Menu1{
+    width: 15%;
+    margin-top: 30px;
+    padding-left: 50px;
+}
+.product-card{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 20px;
+    box-shadow: 5px 15px 15px rgb(116, 111, 111);
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 1000ms;
+}
+.card-text{
+    text-decoration: line-through;
+}

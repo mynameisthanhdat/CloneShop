@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="feedback.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <b>feedback</b>
+        <div class="content">
+            <div class="main">
+                <div class="name">
+                    <h3>Your Name</h3>
+                    <input type="text">
+                </div>
+                <div class="mail">
+                    <h3>Your Email</h3>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="who">
+                <h3>who are you ?</h3>
+                <select style="border-radius:50px; outline: none; margin-left: 5px;" class="gender">
+                    <option value="male">MALE</option>
+                    <option value="female">FEMALe</option>
+                    <option value="other">OTHER</option>
+                </select>
+            </div>
+            <div class="come">
+                <h3>what is your comment about ?</h3>
+                <div class="radiobtn">
+                    <input type="checkbox" Name="content" id="content">
+                    <label for="content">content</label>
+                    <br>
+                    <input type="checkbox" name="Design" id="Design">
+                    <label for="Design ">Design</label>
+                    <br>
+                    <input type="checkbox" name="Navigation" id="Navigation">
+                    <label for="Navigation ">Navigation</label>
+                    <br>
+                    <input type="checkbox" Name="other" id="other">
+                    <label for="other">other</label>
+                </div>
+
+            </div>
+            <div class="feed">
+                <h3>Feedback: </h3>
+                <textarea rows="5"></textarea>
+            </div>
+            <div class="sub">
+                <button style="width: 800px; margin-top: 20px;" type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

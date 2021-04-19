@@ -4,7 +4,7 @@
 }
 .container-flui{
     /* background-color: whitesmoke; */
-    background: linear-gradient(-180deg,#c0bfbf,rgb(243, 237, 235));
+    background: linear-gradient(to right,#e9e3e3,rgb(158, 156, 154));
 }
 .menu{
     display: flex;
@@ -13,14 +13,11 @@
 .menubt{
     display: flex;
     padding-left: 210px;
-    /* background-color: rgb(163, 160, 155); */
-    /* background: linear-gradient(-180deg,#afabab,rgb(241, 229, 225)); */
 }
 .menuic{
     cursor: pointer;
     display: flex !important;
-    border-radius: 15px !important;
-    padding: 5px !important;
+    border-radius: 20px !important;
 }
 .product{
     display: flex;

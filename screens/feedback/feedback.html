@@ -42,53 +42,86 @@
                 </ul>
             </div>
         </nav>
-        <b>feedback</b>
+        <div class="text"><b >feedback</b></div>
+        
         <div class="content">
             <div class="main">
-                <div class="name">
-                    <h3>Your Name</h3>
-                    <input type="text">
-                </div>
-                <div class="mail">
-                    <h3>Your Email</h3>
-                    <input type="text">
-                </div>
-            </div>
+                <div class="form-group">
+                    <label style="font-family: 'Courier New', Courier, monospace; " for="email">Your name: </label>
+                    <input type="" class="form-control" placeholder="" id="email">
+                  </div>
+                  <hr width="100%" />
+
+                  <div class="form-group">
+                    <label style="font-family: 'Courier New', Courier, monospace; " for="pwd">Your mail: </label>
+                    <input type="" class="form-control" placeholder="" id="pwd">
+                  </div>
+                  <hr width="100%" />
             <div class="who">
-                <h3>who are you ?</h3>
-                <select style="border-radius:50px; outline: none; margin-left: 5px;" class="gender">
-                    <option value="male">MALE</option>
-                    <option value="female">FEMALe</option>
-                    <option value="other">OTHER</option>
-                </select>
+                <h3 style="font-size: 25px ;font-family: 'Courier New', Courier, monospace;">who are you ?</h3>
+                <select style="border-radius: 5px; outline:none ;" name="cars" id="cars">
+                    <option style="font-family: 'Courier New', Courier, monospace;" value="MALE">MALE</option>
+                    <option style="font-family: 'Courier New', Courier, monospace;" value="FEMALe">FEMALe</option>
+                    <option style="font-family: 'Courier New', Courier, monospace;"x value="OTHER">OTHER</option>
+                  </select>
+                
             </div>
+            <hr width="100%" />
             <div class="come">
-                <h3>what is your comment about ?</h3>
+                <h3 style="font-size: 25px; font-family: 'Courier New', Courier, monospace;" >what is your comment about ?</h3>
                 <div class="radiobtn">
                     <input type="checkbox" Name="content" id="content">
-                    <label for="content">content</label>
+                    <label style="font-family: 'Courier New', Courier, monospace;" for="content">content</label>
                     <br>
                     <input type="checkbox" name="Design" id="Design">
-                    <label for="Design ">Design</label>
+                    <label style="font-family: 'Courier New', Courier, monospace;" for="Design ">Design</label>
                     <br>
                     <input type="checkbox" name="Navigation" id="Navigation">
-                    <label for="Navigation ">Navigation</label>
+                    <label style="font-family: 'Courier New', Courier, monospace; " for="Navigation ">Navigation</label>
                     <br>
                     <input type="checkbox" Name="other" id="other">
-                    <label for="other">other</label>
+                    <label style="font-family: 'Courier New', Courier, monospace; "for="other">other</label>
                 </div>
 
             </div>
+            <hr width="100%" />
             <div class="feed">
-                <h3>Feedback: </h3>
+                <h3 style="font-family: 'Courier New', Courier, monospace;font-size: 25px;">Feedback: </h3>
                 <textarea rows="5"></textarea>
             </div>
+            <hr width="100%" /> 
             <div class="sub">
-                <button style="width: 800px; margin-top: 20px;" type="button" class="btn btn-primary">Submit</button>
-            </div>
-        </div>
-    </div>
-
-</body>
+                <button style="width: 900px; margin-top: 20px;" type="button"data-toggle="modal" data-target="#myModal" class="btn btn-primary">Submit</button>
+                <!-- Button to Open the Modal -->
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                      <!-- Modal Header -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Give us a second . .</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+                
+                      <!-- Modal body -->
+                      <div class="modal-body">
+                        You'll just have to be patient.. 
+                      </div>
+                
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                      </div>
+                
+                    </div>
+                  </div>
+                </div>
+                          </div>
+                      </div>
+                  </div>
+              
+              </body>
+  
 
 </html>

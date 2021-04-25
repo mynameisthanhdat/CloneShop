@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cart.css">
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="container-flui">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <a class="navbar-brand" href="../home/home.html">Shopclone</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../product/product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../feedback/feedback.html">Feedback</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Cart/cart.html">Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="title">
+            <h2>CART</h2>
+        </div>
+        <div class="khung">
+            <div class="table">
+                <ul>
+                    <img src="http://cityzoo.vn/img_data/images/cho-samoyed.jpg" alt="" height="200px" width="200px">
+                    <li>
+                        <p>
+                            Product
+                        </p>
+                        <p>
+                            While Dog
+                        </p>
+                    </li>
+                    <li>
+                        <p>Price</p>
+                        <p>$2000.00</p>
+                    </li>
+                    <li>
+                        <p>
+                            Quantity
+                        </p>
+                        <form action="/action_page.php">
+                            <label for="quantity">Quantity (between 1 and 1000 ):</label>
+                            <input type="number" id="quantity" name="quantity" min="1" max="1000">
+                            <input type="submit">
+                        </form>
+                    </li>
+                    <li>
+                        <p>
+                            Total
+                        </p>
+                        <p>
+                            $2000.00
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tuan">
+            <div class="tuan1">
+                Coupon code
+                <button>APPY COUPON</button>
+            </div>
+            <div class="tuan2">
+                <button>UPDATE CART</button>
+            </div>
+        </div>
+        <div class="tuan3">
+            <h1>CART TOTALS</h1>
+            <div class="subtotal">
+                <p>SUBTOTAL</p>
+                <p>$2000.00</p>
+            </div>
+            <div class="total">
+                <p>TOTAL</p>
+                <P>$2000.00</P>
+            </div>
+            <div class="end">
+                <button>
+                    PROCEED TO CHECKOUT
+                </button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

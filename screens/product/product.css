@@ -3,8 +3,7 @@
     padding: 0;
 }
 .container-flui{
-    /* background-color: whitesmoke; */
-    background: linear-gradient(to right,#e9e3e3,rgb(158, 156, 154));
+    background: linear-gradient(to right,#f1ecec,rgb(117, 116, 114));
 }
 .menu{
     display: flex;

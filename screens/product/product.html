@@ -1,221 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="product.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="product.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
+
 <body>
-    <div class="container-flui">
-        <div class="menu pt-4 " style="width:100%">
-          <div class="menubt">
-            <button type="button" class="btn btn-secondary mx-2">Liên quan</button>
-            <button type="button" class="btn btn-secondary mx-2">Mới nhất</button>
-            <button type="button" class="btn btn-secondary mx-2">Bán chạy</button>
-            <div class="dropdown">
-                <button type="button" class="btn btn-secondary dropdown-toggle mx-2 p-3" data-toggle="dropdown">
-                  Giá
-                </button>
-                <div class="dropdown-menu ">
-                  <a class="dropdown-item" href="#">Giá: Cao đến thấp</a>
-                  <a class="dropdown-item" href="#">Giá: Tháp đến cao</a>
-                </div>
-              </div>
+  <div class="container-flui">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="navbar-brand" href="../home/home.html">Shopclone</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../product/product.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../about/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../feedback/feedback.html">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Cart/cart.html">Cart</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="menu pt-4 " style="width:100%">
+      <div class="menubt">
+        <button type="button" class="btn btn-secondary mx-2">Liên quan</button>
+        <button type="button" class="btn btn-secondary mx-2">Mới nhất</button>
+        <button type="button" class="btn btn-secondary mx-2">Bán chạy</button>
+        <div class="dropdown">
+          <button type="button" class="btn btn-secondary dropdown-toggle mx-2 p-3" data-toggle="dropdown">
+            Giá
+          </button>
+          <div class="dropdown-menu ">
+            <a class="dropdown-item" href="#">Giá: Cao đến thấp</a>
+            <a class="dropdown-item" href="#">Giá: Tháp đến cao</a>
           </div>
-          
-            <button type="button" class="menuic btn btn-secondary mx-4">
-              <p class="text-light">Giỏ hàng của bạn</p>
-              <i class="fas fa-shopping-cart text-light" style="font-size: 25px;"></i>
-            </button>
-            
-        
         </div>
-        <div class="product">
-            <div class="Menu1">
-                <p>Nơi bán</p>
-                <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input" value="">Hà Nội
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input" value="">Tp.HCM
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input" value="" >Đà Nẵng
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input" value="" >Quảng Ngãi
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input" value="" >Buôn Ma Thuột
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input" value="" >Quy Nhơn
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input" value="" >Nha Trang
-                    </label>
-                  </div>
-                  <button type="button" class="btn btn-secondary mt-2 btn-accept">Xác nhận</button>
-            </div>
-            <div class="product-card">
-                <div class="card" style="width:260px">
-                    <img class="card-img-top" src="https://luvinus.com/wp-content/uploads/2020/07/chan-vay-trang-mac-voi-ao-gi-11.jpg" alt="Card image">
-                    <div class="card-body">
-                      <h4 class="card-title">Váy xòe trắng</h4>
-                      <div class="d-flex">
-                        <p class="card-text mr-2">Giá: 300.000đ</p>
-                        <p class="text-danger">Giá: 270.000đ</p>
-                      </div>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
-                        <i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng
-                      </button>
-                    </div>
-                  </div>
-                  <div class="card" style="width:260px">
-                    <img class="card-img-top" src="https://media3.scdn.vn/img3/2019/4_5/WZVc0y_simg_de2fe0_500x500_maxb.jpg" alt="Card image">
-                    <div class="card-body">
-                      <h4 class="card-title">Váy tennis xếp ly</h4>
-                      <div class="d-flex">
-                        <p class="card-text mr-2">Giá: 250.000đ</p>
-                        <p class="text-danger">Giá: 230.000đ</p>
-                      </div>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
-                        <i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng
-                      </button>
-                    </div>
-                  </div>
-                  <div class="card" style="width:260px">
-                    <img class="card-img-top" src="https://media3.scdn.vn/img3/2019/4_9/HHPuHz_simg_de2fe0_500x500_maxb.jpg" alt="Card image">
-                    <div class="card-body">
-                      <h4 class="card-title">Váy xòe</h4>
-                      <div class="d-flex">
-                        <p class="card-text mr-2">Giá: 320.000đ</p>
-                        <p class="text-danger">Giá: 250.000đ</p>
-                      </div>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
-                        <i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng
-                      </button>
-                    </div>
-                  </div>
-                  <div class="card" style="width:260px">
-                    <img class="card-img-top" src="https://vietnamleather.com/wp-content/uploads/2020/05/vay-cong-chua-ava.jpg" alt="Card image">
-                    <div class="card-body">
-                      <h4 class="card-title">Váy đầm công sở</h4>
-                      <div class="d-flex">
-                        <p class="card-text mr-2">Giá: 400.000đ</p>
-                        <p class="text-danger">Giá: 350.000đ</p>
-                      </div>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
-                        <i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng
-                      </button>
-                    </div>
-                  </div>
-                  <div class="card" style="width:260px">
-                    <img class="card-img-top" src="https://cdn.gumac.vn//image/01/thoi-trang/don-gian/quan-gia-vay-dang-dai020620201452427558.jpg" alt="Card image">
-                    <div class="card-body">
-                      <h4 class="card-title">Váy đầm công sở</h4>
-                      <div class="d-flex">
-                        <p class="card-text mr-2">Giá: 370.000đ</p>
-                        <p class="text-danger">Giá: 300.000đ</p>
-                      </div>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
-                        <i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng
-                      </button>
-                    </div>
-                  </div>
-                  <div class="card" style="width:260px">
-                    <img class="card-img-top" src="https://cf.shopee.vn/file/731bb34f96ce6a60349983a92efe6e64">
-                    <div class="card-body">
-                      <h4 class="card-title">Chân váy xòe</h4>
-                      <div class="d-flex">
-                        <p class="card-text mr-2">Giá: 200.000đ</p>
-                        <p class="text-danger">Giá: 170.000đ</p>
-                      </div>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <i class="fas fa-star text-warning"></i>
-                      <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
-                        <i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng
-                      </button>
-                    </div>
-                  </div>
-                 
-                  
-                  <!-- The Modal -->
-                  <div class="modal" id="myModal">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                  
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                          <h4 class="modal-title">Thêm vào giỏ hàng thành công.</h4>
-                          <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>
-                  
-                        <!-- Modal body -->
-                        <div class="modal-body">
-                          Nhấn Close để tắt.
-                        </div>
-                  
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                  
-                      </div>
-                    </div>
-                  </div>
-                  
-            </div>
-        </div>
+      </div>
+
+      <button type="button" class="menuic btn btn-secondary mx-4">
+        <p class="text-light">Giỏ hàng của bạn</p>
+        <i class="fas fa-shopping-cart text-light" style="font-size: 25px;"></i>
+      </button>
+
+
     </div>
+    <div class="product">
+      <div class="Menu1">
+        <p>Nơi bán</p>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="">Hà Nội
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="">Tp.HCM
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="">Đà Nẵng
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="">Quảng Ngãi
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="">Buôn Ma Thuột
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="">Quy Nhơn
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value="">Nha Trang
+          </label>
+        </div>
+        <button type="button" class="btn btn-secondary mt-2 btn-accept">Xác nhận</button>
+      </div>
+      <div class="product-card">
+        <div class="card" style="width:260px">
+          <img class="card-img-top"
+            src="https://luvinus.com/wp-content/uploads/2020/07/chan-vay-trang-mac-voi-ao-gi-11.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Váy xòe trắng</h4>
+            <div class="d-flex">
+              <p class="card-text mr-2">Giá: 300.000đ</p>
+              <p class="text-danger">Giá: 270.000đ</p>
+            </div>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
+              <i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng
+            </button>
+          </div>
+        </div>
+        <div class="card" style="width:260px">
+          <img class="card-img-top" src="https://media3.scdn.vn/img3/2019/4_5/WZVc0y_simg_de2fe0_500x500_maxb.jpg"
+            alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Váy tennis xếp ly</h4>
+            <div class="d-flex">
+              <p class="card-text mr-2">Giá: 250.000đ</p>
+              <p class="text-danger">Giá: 230.000đ</p>
+            </div>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
+              <i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng
+            </button>
+          </div>
+        </div>
+        <div class="card" style="width:260px">
+          <img class="card-img-top" src="https://media3.scdn.vn/img3/2019/4_9/HHPuHz_simg_de2fe0_500x500_maxb.jpg"
+            alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Váy xòe</h4>
+            <div class="d-flex">
+              <p class="card-text mr-2">Giá: 320.000đ</p>
+              <p class="text-danger">Giá: 250.000đ</p>
+            </div>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
+              <i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng
+            </button>
+          </div>
+        </div>
+        <div class="card" style="width:260px">
+          <img class="card-img-top" src="https://vietnamleather.com/wp-content/uploads/2020/05/vay-cong-chua-ava.jpg"
+            alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Váy đầm công sở</h4>
+            <div class="d-flex">
+              <p class="card-text mr-2">Giá: 400.000đ</p>
+              <p class="text-danger">Giá: 350.000đ</p>
+            </div>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
+              <i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng
+            </button>
+          </div>
+        </div>
+        <div class="card" style="width:260px">
+          <img class="card-img-top"
+            src="https://cdn.gumac.vn//image/01/thoi-trang/don-gian/quan-gia-vay-dang-dai020620201452427558.jpg"
+            alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Váy đầm công sở</h4>
+            <div class="d-flex">
+              <p class="card-text mr-2">Giá: 370.000đ</p>
+              <p class="text-danger">Giá: 300.000đ</p>
+            </div>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
+              <i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng
+            </button>
+          </div>
+        </div>
+        <div class="card" style="width:260px">
+          <img class="card-img-top" src="https://cf.shopee.vn/file/731bb34f96ce6a60349983a92efe6e64">
+          <div class="card-body">
+            <h4 class="card-title">Chân váy xòe</h4>
+            <div class="d-flex">
+              <p class="card-text mr-2">Giá: 200.000đ</p>
+              <p class="text-danger">Giá: 170.000đ</p>
+            </div>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
+              <i class="fas fa-cart-plus"></i> Thêm vào giỏ hàng
+            </button>
+          </div>
+        </div>
+
+
+        <!-- The Modal -->
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Thêm vào giỏ hàng thành công.</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                Nhấn Close để tắt.
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

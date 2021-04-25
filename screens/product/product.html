@@ -57,10 +57,8 @@
           </div>
         </div>
       </div>
-
-      <button type="button" class="menuic btn btn-secondary mx-4">
-        <p class="text-light">Giỏ hàng của bạn</p>
-        <i class="fas fa-shopping-cart text-light" style="font-size: 25px;"></i>
+      <button type="button" class="menuic btn btn-secondary mx-4" data-toggle="modal" data-target="#myModal1">
+        <i class="fas fa-shopping-cart text-light" style="font-size: 35px;"></i>
       </button>
 
 
@@ -247,7 +245,44 @@
           </div>
         </div>
 
+        <!-- The Modal -->
+        <div class="modal" id="myModal1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Giỏ hàng rỗng</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                Nhấn Close để tắt.
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-main">
+          <ul class="d-flex">
+            <li><a style="color: rgb(231, 243, 248);" href="">CHÍNH SÁCH BẢO MẬT</a></li>
+            <li><a style="color: rgb(248, 231, 231);" href="">QUY CHẾ HOẠT ĐỘNG</a></li>
+            <li><a style="color: rgb(248, 231, 231);" href="">CHÍNH SÁCH VẬN CHUYỂN</a></li>
+            <li><a style="color: rgb(248, 231, 231);" href="">CHÍNH SÁCH TRẢ HÀNG VÀ HOÀN TIỀN</a></li>
+          </ul>
+        </div>
+        <div class="footer-icon">
+        </div>
     </div>
   </div>
 </body>

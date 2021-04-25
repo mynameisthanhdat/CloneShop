@@ -3,8 +3,7 @@
     padding: 0;
 }
 .container-flui{
-    /* background-color: whitesmoke; */
-    background: linear-gradient(to right,#e9e3e3,rgb(158, 156, 154));
+    background: linear-gradient(to right,#b9b6b6,rgb(94, 90, 90));
 }
 .menu{
     display: flex;
@@ -16,8 +15,6 @@
 }
 .menuic{
     cursor: pointer;
-    display: flex !important;
-    border-radius: 20px !important;
 }
 .product{
     display: flex;
@@ -38,7 +35,7 @@
     background-color: rgb(199, 187, 187);
     cursor: pointer;
 }
-.card:hover{
+.card-img-top:hover{
     transform: scale(1.05);
     transition: 1000ms;
 }
@@ -56,4 +53,18 @@
     .product-card{
         width: 100%;
     }
+}
+.footer-main {
+    width: 70%;
+    margin: 0 auto;
+}
+.d-flex {
+    justify-content: space-around;
+    font-size: 15px;
+}
+.d-flex li a{
+    text-decoration: none;
+}
+.d-flex li {
+    list-style-type: none;
 }

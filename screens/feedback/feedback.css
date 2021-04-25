@@ -11,56 +11,32 @@ b{
     font-family: 'Courier New', Courier, monospace;
 }
 .content{
-    margin-left: 35%;
     margin-top: 100px;
-
+    width: 60%;
+    margin-left: 20%;
 }
 .main{
     font-family: 'Times New Roman', Times, serif;
-    
-   
-
 }
-.name{
-    display: flex;
-    border-radius: 30px;
-    padding: 5px;
-    
 
-}
-.name input{
-    border-radius: 3px;
-    width: 450px;
-    margin-left: 5px;
-
-}
-.mail{
-    display: flex;
-    border-radius: 30px;
-    padding: 5px;
-
-}
-.mail input{
-    width: 450px;
-    border-radius: 3px;
-    margin-left: 5px;
-
-}
 .main li h3{
     text-decoration: none;
 }
 .come{
-    display: flex;
 
 }
 .who{
-    display: flex;
 }
 .feed{
-    display: flex;
     margin-left: 5px;
 }
 .feed textarea{
     margin-left: 5px;
-    padding: 100px 200px;
+    padding: 80px 350px;
+}
+.form-control{
+    height: 35px;
+}
+.text {
+    margin: 50px !important;
 }

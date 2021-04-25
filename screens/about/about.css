@@ -7,8 +7,81 @@
 }
 .bang1{
     background: url(https://i.pinimg.com/originals/5e/21/da/5e21dacde310d6d13ad78d834345a9bf.jpg);
-    height:  40%;
     padding: 50px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+.trai{
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.phai{
+    margin-left: 370px;
+    height: 125px;
+}
+.a{
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+}
+.b{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+.b1{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+}
+.b1 a{
+    display: block;
+    text-decoration: none;
+}
+.b2{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+}
+.b2 a{
+    display: block;
+    text-decoration: none;
+}
+.b3{
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+}
+.b3 a{ 
+    display: block;
+    text-decoration: none;
+}
+.c{
+    font-size: 30px;
+    margin: 15px;
+    text-align: center;
+}
+.d{
+    display: flex;
+    justify-content: space-around;
+}
+.e {
+    width: 40%;
+    margin-left: 100px;
+}
+.f {
+    width: 40%;
+
+}
+.e img{
+    width: 10%;
+    margin: 15px;
+    padding: 20px;
+}
+.f img{
+    width: 20%;
+    margin: 15px;
+    padding: 20px;
 }

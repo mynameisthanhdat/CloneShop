@@ -2,22 +2,22 @@
     margin: 0;
     padding: 0;
 }
-.container{
+/* .container{
     width: 100%;
     padding: 10px;
-}
+} */
 
 .khung{
     /* display: flex; */
     padding: 20px;
 }
 
-nav ul {
+.table ul {
     padding: 40px;
     display: flex;
 }
 
-nav ul li{
+.table ul li{
     padding-left: 150px;
     list-style: none;
     padding-top: 20px;

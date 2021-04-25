@@ -42,6 +42,36 @@
                 </ul>
             </div>
         </nav>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://www.w3schools.com/bootstrap4/la.jpg" alt="Los Angeles" width="1100" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.w3schools.com/bootstrap4/chicago.jpg" alt="Chicago" width="1100" height="500">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.w3schools.com/bootstrap4/ny.jpg" alt="New York" width="1100" height="500">
+              </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
         <b>feedback</b>
         <div class="content">
             <div class="main">
@@ -78,6 +108,31 @@
                     <label for="other">other</label>
                 </div>
 
+            </div>
+            <div class="come">
+                <h3>what is your comment about ?</h3>
+                <div class="radiobtn">
+                    <input type="checkbox" Name="content" id="content">
+                    <label for="content">content</label>
+                    <br>
+                    <input type="checkbox" name="Design" id="Design">
+                    <label for="Design ">Design</label>
+                    <br>
+                    <input type="checkbox" name="Navigation" id="Navigation">
+                    <label for="Navigation ">Navigation</label>
+                    <br>
+                    <input type="checkbox" Name="other" id="other">
+                    <label for="other">other</label>
+                </div>
+
+            </div>
+            <div class="who">
+                <h3>who are you ?</h3>
+                <select style="border-radius:50px; outline: none; margin-left: 5px;" class="gender">
+                    <option value="male">MALE</option>
+                    <option value="female">FEMALe</option>
+                    <option value="other">OTHER</option>
+                </select>
             </div>
             <div class="feed">
                 <h3>Feedback: </h3>
